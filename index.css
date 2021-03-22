@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('fonts/Roboto-Regular.eot');
+    src: local('☺'), url('fonts/Roboto-Regular.woff') format('woff'), url('fonts/Roboto-Regular.ttf') format('truetype'), url('fonts/Roboto-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto-Regular';
+    max-width: 1000px;
+    background-image: url(./img/nexus.png);
+    position: relative;
+    width: 75%;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #EFE19A;
+}
+
+section h1 {
+    text-align: center;
+    padding-top: 5em;
+}
+
+body div ul {
+    list-style-type: none;
+}
+
+body div ul li {
+    text-align: center;
+    padding: 3px 40px 0px 0px;
+}
+
+body > div > ul > li:nth-child(1) {
+    font-size: 1.2em;
+}
+
+body div ul li a {
+    color: #658846;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99px;
+}
+
+footer div p {
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 30px;
+}
